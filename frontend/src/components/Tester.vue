@@ -32,7 +32,7 @@ export default {
   },
   methods:{
     runTester(evt){
-      const path = 'http://localhost:5000/api/v1/scans';
+      const path = 'http://g.dog/api/v1/scans';
       evt.preventDefault();
       axios.post(path, {
         url: this.form.url,
